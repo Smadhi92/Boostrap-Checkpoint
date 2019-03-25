@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+}
+
+.couverture{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    background-image: url("../res/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.img1{
+    position: relative;
+    top: -100px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 53, 197);
+  }
+ 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social {
+    position: relative;
+    top: -50px;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    padding: 3px;
+}
+.Name {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    color: #444;
+}
+.Name:hover {
+    color: #222;
+    text-decoration: underline;
+    cursor: default;
+}
+.speciality {
+    font-family: 'Tangerine', cursive;
+    color: #666;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: -85px;
+}
+
+.heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.2em;
+    color: rgb(28, 133, 219);
+}
+
+
+.ul1{
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    margin-left: -23px; 
+}
+.ul2{
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    margin-left: -23px; 
+}
+.row{
+    margin-top: -30px;
+    margin-left: auto;
+}
+.interests .row {
+    margin-top: 40px;
+}
+.text-centered {
+    text-align: center;
+}
+.col-md-2 {
+    width: 16.66666667%;
+}
+.fas, .fab, .far {
+    font-size: 4em;
+}
+
+.interests i {
+    color: rgb(37, 34, 34);
+    transition: transform .5s;
+}
+
+
+.head2{
+    margin-left: 15px;
+}
+
+.interests p {
+    font-size: 1.4em;
+    color: rgb(17, 17, 68);
+    position: relative;
+    padding: 10px;
+}
+
+.interests i:hover {
+    color: #2196F3;
+    transform: rotate(360deg);
+    transition: all .5s;
+}
+
+p{
+    opacity: 0;
+    transition: all .7s;
+    font-family: 'Lora', serif;
+    
+}
+
+.show{
+    opacity: 1;
+}
+
+.Projects img {
+    border-radius: 3.5px;
+    margin: 40px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    transition: box-shadow .3s;
+}
+
+.img-responsive{
+    height: 200px;
+    width: 300px;
+}
+
+.img-responsive:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow .3s;
+}
